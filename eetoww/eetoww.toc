@@ -1,0 +1,16 @@
+\contentsline {section}{\numberline {1}从拉格朗日量到费曼规则}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}QED 的费曼规则}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}电弱理论的费曼规则}{5}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}从 $QED$ 的计算当中得到的一些启发}{5}{subsubsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}电弱理论的拉格朗日量}{5}{subsubsection.1.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.3}拉格朗日量的展开}{6}{subsubsection.1.2.3}%
+\contentsline {section}{\numberline {2}计算过程}{8}{section.2}%
+\contentsline {subsection}{\numberline {2.1}计算$M_{\gamma }$}{8}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}光子传播子}{9}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}电子光子顶点因子}{9}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.3}$\gamma W^{+}W^{-}$顶点因子}{9}{subsubsection.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.4}极化玻色子矢量}{11}{subsubsection.2.1.4}%
+\contentsline {section}{\numberline {3}计算散射截面}{11}{section.3}%
+\contentsline {subsection}{\numberline {3.1}计算 $\sigma _{\gamma \gamma }$}{12}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}计算 $\sigma _{ZZ}$}{14}{subsection.3.2}%
+\contentsline {section}{\numberline {4}计算结果以及可视化}{14}{section.4}%
