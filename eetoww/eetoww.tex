@@ -698,7 +698,7 @@
 
 将会得到
 \begin{equation}
-    \sigma_{ZZ} = \frac{\pi \alpha^2}{12s\left(s - m_Z^2\right)^2}\frac{1 - 4\sin^2{\theta_W} + 8\sin^4{\theta_W}}{\sin^4{\theta_W}}\left(3 - \frac{s}{2m_W^2}\right)^2 \left(s - 4m_e^2 \right)^{\frac{1}{2}}\left(s - 4m_W^2\right)^{\frac{3}{2}} \left(1 + \cos^2{\theta}\right)
+    \sigma_{ZZ} = \frac{\pi \alpha^2}{12s\left(s - m_Z^2\right)^2}\frac{1 - 4\sin^2{\theta_W} + 8\sin^4{\theta_W}}{\sin^4{\theta_W}}\left(3 - \frac{s}{2m_W^2}\right)^2 \left(s - 4m_e^2 \right)^{\frac{1}{2}}\left(s - 4m_W^2\right)^{\frac{3}{2}}
 \end{equation}
 
 
@@ -708,9 +708,24 @@
 
 \subsection{计算 $\sigma_{Z\gamma}$}
 需要注意的是，这种干涉项的计算很容易将一部分给遗漏了，以 $Z \gamma$ 两个过程的干涉为例子，我们的干涉散射振幅为
-\begin{equation*}
-    \left|M_Z\gamma\right|^2 = M_Z^* M_\gamma + M_Z M_\gamma^*
-\end{equation*}
+\begin{eqnarray*}
+    \left|M_Z\gamma\right|^2 &=& M_Z^* M_\gamma + M_Z M_\gamma^* \\
+    &=& -\frac{g_w^2g_e^2}{2s(s-m_Z^2)}\left(3 - \frac{s}{2 m_W^2}\right)^2(k_1 - k_2)_\mu (k_1 - k_2)_\nu \left[\bar{u}(p_1)\gamma^\mu \left(g_V^e + g_A^e \gamma^5\right) v(p_2)\right]\left[\bar{v}(p_2)\gamma^\nu u(p_1)\right] \\
+    && -\frac{g_w^2g_e^2}{2s(s-m_Z^2)}\left(3 - \frac{s}{2 m_W^2}\right)^2(k_1 - k_2)_\mu (k_1 - k_2)_\nu \left[\bar{u}(p_1)\gamma^\mu  v(p_2)\right]\left[\bar{v}(p_2)\gamma^\nu \left(g_V^e - g_A^e \gamma^5\right) u(p_1)\right] \\
+    &=& -\frac{g_w^2g_e^2}{2s(s-m_Z^2)}\left(3 - \frac{s}{2 m_W^2}\right)^2(k_1 - k_2)_\mu (k_1 - k_2)_\nu \left[\bar{u}(p_1)\gamma^\mu  v(p_2)\right]\left[\bar{v}(p_2)\gamma^\nu \left(2g_V^e\right) u(p_1)\right] \\
+    &=& -\frac{g_w^2 g_e^2 g_V^e}{s(s-m_Z^2)}\left(3 - \frac{s}{2 m_W^2}\right)^2(k_1 - k_2)_\mu (k_1 - k_2)_\nu \left[\bar{u}(p_1)\gamma^\mu  v(p_2)\right]\left[\bar{v}(p_2)\gamma^\nu u(p_1)\right] \\
+    &=& -\frac{g_w^2 g_e^2 g_V^e}{s(s-m_Z^2)}\left(3 - \frac{s}{2 m_W^2}\right)^2(k_1 - k_2)_\mu (k_1 - k_2)_\nu \left[p_1^\mu p_2^\nu + p_2^\mu p_1^\nu - \left(p_1 \cdot p_2 - m_e^2\right)g^{\mu\nu}\right] \\
+    &=& -\frac{g_w^2 g_e^2 g_V^e}{s(s-m_Z^2)}\left(3 - \frac{s}{2 m_W^2}\right)^2(-\frac{1}{2})\left(3 - \frac{s}{2m_W^2}\right)^2\left[(u - t)^2 + \left(s - 4m_e^2 \right)\left(s - 4m_W^2\right)\right] \\
+    &=& \frac{g_w^2 g_e^2 g_V^e}{2s(s-m_Z^2)}\left(3 - \frac{s}{2m_W^2}\right)^2\left[(u - t)^2 + \left(s - 4m_e^2 \right)\left(s - 4m_W^2\right)\right] \\
+    &=& \frac{g_w^2 g_e^2 }{4s(s-m_Z^2)}\left(-1 + 4 \sin^2{\theta_W}\right)\left(3 - \frac{s}{2m_W^2}\right)^2 \left(s - 4m_e^2 \right)\left(s - 4m_W^2\right) \left(1 + \cos^2{\theta}\right)
+\end{eqnarray*}
+
+代入得到散射截面为
+\begin{eqnarray}
+    \sigma_{Z\gamma} &=& -\frac{1}{32 \pi s} \int_{-1}^{1} \frac{|p_f|}{|p_i|} \left|M_Z\gamma\right|^2 d(\cos{\theta}) \nonumber\\
+    &=& \frac{\pi \alpha^2}{3s^2(s - m_Z^2)}\frac{4\sin^2{\theta_W} - 1}{\sin^2{\theta_W}}\left(3 - \frac{s}{2m_W^2}\right)^2 \left(s - 4m_e^2 \right)^{\frac{1}{2}}\left(s - 4m_W^2\right)^{\frac{3}{2}}
+\end{eqnarray}
+
 
 
 
