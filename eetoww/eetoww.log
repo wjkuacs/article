@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2025.2.20)  5 MAY 2025 21:45
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2025.2.20)  6 MAY 2025 13:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1084,95 +1084,204 @@ Overfull \hbox (37.76756pt too wide) detected at line 541
 
 [10]
 
-Package tikz-feynman Warning: The key you tried to use '/graph drawing/node distance' requires LuaTeX. It will be ignored. on input line 580.
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/node distance' requires LuaTeX. It will be ignored. on input line 583.
 
 
-Package tikz-feynman Warning: The key you tried to use '/graph drawing/level distance' requires LuaTeX. It will be ignored. on input line 580.
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/level distance' requires LuaTeX. It will be ignored. on input line 583.
 
 
-Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling distance' requires LuaTeX. It will be ignored. on input line 580.
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling distance' requires LuaTeX. It will be ignored. on input line 583.
 
 
-Package tikz-feynman Warning: The key you tried to use '/graph drawing/node distance' requires LuaTeX. It will be ignored. on input line 587.
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/node distance' requires LuaTeX. It will be ignored. on input line 590.
 
 
-Package tikz-feynman Warning: The key you tried to use '/graph drawing/level distance' requires LuaTeX. It will be ignored. on input line 587.
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/level distance' requires LuaTeX. It will be ignored. on input line 590.
 
 
-Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling distance' requires LuaTeX. It will be ignored. on input line 587.
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling distance' requires LuaTeX. It will be ignored. on input line 590.
 
 
-Overfull \hbox (9.70325pt too wide) in alignment at lines 598--608
+Overfull \hbox (9.70325pt too wide) in alignment at lines 601--611
  [][][] []
  []
 
 [11]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 621.
+(hyperref)                removing `math shift' on input line 624.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\sigma' on input line 621.
+(hyperref)                removing `\sigma' on input line 624.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 621.
+(hyperref)                removing `subscript' on input line 624.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gamma' on input line 621.
+(hyperref)                removing `\gamma' on input line 624.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gamma' on input line 621.
+(hyperref)                removing `\gamma' on input line 624.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 621.
+(hyperref)                removing `math shift' on input line 624.
 
 
-Overfull \hbox (45.06659pt too wide) in alignment at lines 629--635
+Overfull \hbox (45.06659pt too wide) in alignment at lines 632--638
  [][][] []
  []
 
 [12] [13]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 668.
+(hyperref)                removing `math shift' on input line 671.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\sigma' on input line 668.
+(hyperref)                removing `\sigma' on input line 671.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 668.
+(hyperref)                removing `subscript' on input line 671.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 668.
+(hyperref)                removing `math shift' on input line 671.
 
 
-Overfull \hbox (1.1108pt too wide) detected at line 693
+Overfull \hbox (64.93568pt too wide) detected at line 676
+[][] \OT1/cmr/m/n/10.53937 = [] [] [][] (\OML/cmm/m/it/10.53937 k[] \OMS/cmsy/m/n/10.53937 ^^@ \OML/cmm/m/it/10.53937 k[]\OT1/cmr/m/n/10.53937 )[](\OML/cmm/m/it/10.53937 k[] \OMS/cmsy/m/n/10.53937 ^^@ \OML/cmm/m/it/10.53937 k[]\OT1/cmr/m/n/10.53937 )[]
+ []
+
+
+Overfull \hbox (88.11993pt too wide) in alignment at lines 679--683
+ [][][] []
+ []
+
+
+Overfull \hbox (50.64029pt too wide) in alignment at lines 686--692
+ [][][] []
+ []
+
+
+Overfull \hbox (17.02544pt too wide) detected at line 702
+[][][]\OML/cmm/m/it/10.53937 ^^[[] \OT1/cmr/m/n/10.53937 = [][] [][] [][] [][] []
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 709.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\sigma' on input line 709.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 709.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gamma' on input line 709.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 709.
+
+[14]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 719.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\sigma' on input line 719.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 719.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\nu' on input line 719.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\nu' on input line 719.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 719.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 724.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\sigma' on input line 724.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 724.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\nu' on input line 724.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 724.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 730.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\sigma' on input line 730.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 730.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gamma' on input line 730.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\nu' on input line 730.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 730.
+
+
+Overfull \hbox (1.1108pt too wide) detected at line 755
 []
  []
 
-[14] (./eetoww.bbl) [15] (./eetoww.aux)
+[15] [16] (./eetoww.bbl) [17] (./eetoww.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2022/08/05>
  ***********
 Package rerunfilecheck Info: File `eetoww.out' has not changed.
-(rerunfilecheck)             Checksum: 79E1176DE0749FFB6C0368C40D7D3186;1878.
+(rerunfilecheck)             Checksum: 6999E0342C3BA15C040E8C93ACA42B93;2216.
  ) 
 Here is how much of TeX's memory you used:
- 31823 strings out of 474878
- 702279 string characters out of 5762516
+ 31824 strings out of 474878
+ 702306 string characters out of 5762516
  1956627 words of memory out of 5000000
- 53316 multiletter control sequences out of 15000+600000
+ 53317 multiletter control sequences out of 15000+600000
  572487 words of font info for 124 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  93i,12n,98p,539b,1967s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on eetoww.pdf (15 pages).
+Output written on eetoww.pdf (17 pages).

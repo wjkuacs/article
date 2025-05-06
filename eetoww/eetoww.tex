@@ -569,6 +569,9 @@
     p_1 \cdot p_2 &=& \frac{s - 2m_e^2}{2} \\
     k_1 \cdot k_2 &=& \frac{s - 2m_W^2}{2} \\
     \left(k_1 - k_2\right)^2 &=& 4m_W^2 - s  \\
+    \left(p_1 - p_2\right)^2 &=& 4m_e^2 - s \\
+    p_1 \cdot k_1 &=& p_2 \cdot k_2 = \frac{1}{2}\left(m_e^2 + m_W^2 - t\right) \\
+    p_1 \cdot k_2 &=& p_2 \cdot k_1 = \frac{1}{2}\left(m_e^2 + m_W^2 - u\right)
 \end{eqnarray*}
 
 
@@ -667,6 +670,65 @@
 
 \subsection{计算 $\sigma_{ZZ}$}
 
+首先是计算 $\left|M_{Z}\right|^2$
+\begin{equation*}
+    \left|M_Z^2\right|^2 = \frac{g_w^4}{4(s - m_Z^2)^2}\left[\bar{v}(p_2)\gamma^\mu \left(g_V^e - g_A^e \gamma^5\right) u(p_1)\bar{u}(p_1)\gamma^\nu \left(g_V^e + g_A^e \gamma^5\right) v(p_2)\right] \left(3 - \frac{s}{2m_W^2}\right)^2 (k_1 - k_2)_\mu (k_1 - k_2)_\nu
+\end{equation*}
+
+将前半部分的电子流部分计算出来
+\begin{eqnarray*}
+    \Tr\left[\bar{v}(p_2)\gamma^\mu \left(g_V^e - g_A^e \gamma^5\right) u(p_1)\bar{u}(p_1)\gamma^\nu \left(g_V^e + g_A^e \gamma^5\right) v(p_2)\right] &=& \frac{1}{4} \left(g_V^{e2} + g_A^{e2}\right) \mathbf{Tr} \left[\left(\slashed{p_1} - m_e\right)\gamma^\mu \left(\slashed{p_2} + m_e\right)\gamma^\nu\right] \\
+    &=& \frac{1}{4}\left(g_V^{e2} + g_A^{e2}\right)\Tr\left[\left(\gamma^\sigma p_{1\sigma} - m_e\right)\gamma^\mu \left(\gamma^\rho p_{2\rho} + m_e\right)\gamma^\nu\right] \\
+    &=& \left(g_V^{e2} + g_A^{e2}\right)\left[p_1^\mu p_2^\nu + p_2^\mu p_1^\nu - \left(p_1 \cdot p_2 - m_e^2\right)g^{\mu\nu}\right]
+\end{eqnarray*}
+
+接下来就可以算出完整的散射振幅
+\begin{eqnarray*}
+    \left|M_Z^2\right|^2 &=& \frac{g_w^4}{4(s - m_Z^2)^2}\left(g_V^{e2} + g_A^{e2}\right)\left[p_1^\mu p_2^\nu + p_2^\mu p_1^\nu - \left(p_1 \cdot p_2 - m_e^2\right)g^{\mu\nu}\right] \left(3 - \frac{s}{2m_W^2}\right)^2 (k_1 - k_2)_\mu (k_1 - k_2)_\nu \\
+    &=& \frac{g_w^4}{4(s - m_Z^2)^2}\left(g_V^{e2} + g_A^{e2}\right) (-\frac{1}{2})\left(3 - \frac{s}{2m_W^2}\right)^2\left[(u - t)^2 + \left(s - 4m_e^2 \right)\left(s - 4m_W^2\right)\right] \\
+    &=& -\frac{g_w^4}{8(s - m_Z^2)^2}\left(g_V^{e2} + g_A^{e2}\right)\left(3 - \frac{s}{2m_W^2}\right)^2\left[(u - t)^2 + \left(s - 4m_e^2 \right)\left(s - 4m_W^2\right)\right] \\
+    &=& -\frac{g_w^4}{8(s - m_Z^2)^2}\left(g_V^{e2} + g_A^{e2}\right)\left(3 - \frac{s}{2m_W^2}\right)^2 \left(s - 4m_e^2 \right)\left(s - 4m_W^2\right) \left(1 + \cos^2{\theta}\right) \\
+    &=& -\frac{g_w^4}{8(s - m_Z^2)^2}\left(\frac{1}{2} - 2\sin^2{\theta_W} + 4\sin^4{\theta_W}\right)\left(3 - \frac{s}{2m_W^2}\right)^2 \left(s - 4m_e^2 \right)\left(s - 4m_W^2\right) \left(1 + \cos^2{\theta}\right)
+\end{eqnarray*}
+
+将其代入到公式当中
+\begin{equation*}
+    \sigma_{ZZ} = -\frac{1}{32 \pi s} \int_{-1}^{1} \frac{|p_f|}{|p_i|} \left|M_Z^2\right|^2 d(\cos{\theta})
+\end{equation*}
+
+将会得到
+\begin{equation}
+    \sigma_{ZZ} = \frac{\pi \alpha^2}{12s\left(s - m_Z^2\right)^2}\frac{1 - 4\sin^2{\theta_W} + 8\sin^4{\theta_W}}{\sin^4{\theta_W}}\left(3 - \frac{s}{2m_W^2}\right)^2 \left(s - 4m_e^2 \right)^{\frac{1}{2}}\left(s - 4m_W^2\right)^{\frac{3}{2}} \left(1 + \cos^2{\theta}\right)
+\end{equation}
+
+
+
+
+
+
+\subsection{计算 $\sigma_{Z\gamma}$}
+需要注意的是，这种干涉项的计算很容易将一部分给遗漏了，以 $Z \gamma$ 两个过程的干涉为例子，我们的干涉散射振幅为
+\begin{equation*}
+    \left|M_Z\gamma\right|^2 = M_Z^* M_\gamma + M_Z M_\gamma^*
+\end{equation*}
+
+
+
+
+
+\subsection{计算 $\sigma_{\nu \nu}$}
+
+
+
+
+\subsection{计算 $\sigma_{Z\nu}$}
+
+
+
+
+
+\subsection{计算 $\sigma_{\gamma \nu}$}
+
 
 
 
@@ -714,6 +776,7 @@
     \nocite{Veltman_1994}
     \nocite{Peskin:1995ev}
     \nocite{Paschos_2023a}
+    \nocite{griffiths2008introduction}
 \end{center}
 
 
